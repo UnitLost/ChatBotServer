@@ -140,7 +140,7 @@ public class Server {
         
         private String machine(String quesiton) throws IOException {
             //接入机器人，输入问题
-            String APIKEY = "136cfaddf6ef4a98a59df087bac71e28";
+            String APIKEY = "";//在这里填入你的密钥
             String INFO = URLEncoder.encode(quesiton, "utf-8");//这里可以输入问题
             String getURL = "http://www.tuling123.com/openapi/api?key=" + APIKEY + "&info=" + INFO;
             URL getUrl = new URL(getURL);
